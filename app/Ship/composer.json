@@ -1,0 +1,20 @@
+{
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/k2inno-tech/core"
+    }
+  ],
+  "require": {
+    "apiato/core": "dev-master",
+    "barryvdh/laravel-debugbar": "3.*"
+  },
+  "require-dev": {
+    "barryvdh/laravel-ide-helper": "2.5.*"
+  },
+  "autoload": {
+    "files": [
+      "Helpers/mix.php"
+    ]
+  }
+}
